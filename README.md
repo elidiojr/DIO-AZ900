@@ -6,11 +6,20 @@ Este repositório contém o resumo das lições aprendidas durante o desenvolvim
 
 ## Desafios de Projeto
 
-### Desafio de Projeto 1: XXXXXX
+### Desafio de Projeto 1: Computação em Nuvem
+
+**Resumo**
+
+Este laboratório introduz o portal do Microsoft Azure, explicando a interface e as funcionalidades básicas, como personalizar o idioma e a aparência.
+
+O foco principal é a seção “Computação”, onde são apresentados os serviços relacionados à computação em nuvem, como máquinas virtuais, discos, redes virtuais (incluindo Bastiões/Jump Servers) e armazenamento. Destaca a importância de estar atento ao status dos serviços como “versão prévia”, que ainda não possuem SLA (acordo de nível de serviço) e podem ser descontinuados sem aviso prévio.
+
+Por fim, enfatiza a relevância da computação em nuvem no mercado de trabalho e incentiva o público a criar uma conta gratuita no Azure para acompanhar os próximos laboratórios e se preparar para a certificação AZ-900.
+
 
 ### Desafio de Projeto 2: Laboratório Benefícios da Nuvem
 
-**Resumo:**
+**Resumo**
 
 Este laboratório aborda os benefícios da nuvem e, em especial, os acordos de nível de serviço (SLAs). É crucial entender o SLA para determinar o tempo de inatividade aceitável para seus recursos e serviços na nuvem. Quanto mais “noves” no SLA, menor o tempo de inatividade. 
 
