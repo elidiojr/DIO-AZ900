@@ -102,6 +102,65 @@ O laboratório explora como criar um **aplicativo de função** no Azure, aborda
 - Recomenda-se consultar a [documentação oficial do Azure](https://docs.microsoft.com/azure) e utilizar ferramentas de monitoramento e alertas para otimizar os serviços e garantir a segurança da infraestrutura.
 - A prática contínua é essencial para se familiarizar com os recursos do Azure e seus diferentes cenários de uso.
 
-### *2.3 - Desafio de Projeto: Computação em Nuvem*
+### *2.3 - Dominando o Armazenamento na Azure*
+
+Este laboratório aborda conceitos e práticas de armazenamento na plataforma Azure, com foco em contas de armazenamento (Storage Accounts), migrações e ferramentas de gerenciamento.
+
+### Principais Pontos
+
+#### Contas de Armazenamento
+
+O laboratório demonstra a criação de uma conta de armazenamento no Azure, explorando suas funcionalidades principais, como:
+
+- **Tipos de Armazenamento:**
+  - Blobs
+  - Arquivos
+  - Filas
+  - Tabelas
+- **Importância de nome único para cada conta.**
+- **Tipos de conta:** 
+  - Standard
+  - Premium
+- **Redundância e opções de acesso.**
+
+#### Migrações para o Azure
+
+O laboratório apresenta o **serviço de migração do Azure**, que oferece ferramentas para:
+
+- Avaliar, planejar e executar migrações de:
+  - Servidores
+  - Bancos de dados
+  - Aplicativos web para a nuvem.
+- **Funcionalidades:** 
+  - Análise de dependências
+  - Estratégias de migração
+  - Análise financeira
+
+#### Ferramentas de Gerenciamento
+
+Duas ferramentas importantes foram destacadas no laboratório:
+
+- **Azure Storage Explorer:**
+  - Permite **visualizar, gerenciar e sincronizar arquivos** entre sua máquina local e a conta de armazenamento no Azure.
+  - Interface gráfica fácil de usar.
+
+- **AzCopy:**
+  - Ferramenta de **linha de comando** para copiar e gerenciar dados entre sua máquina local e o Azure Storage.
+  - Ideal para **transferências unilaterais**.
+  - Funciona em diferentes sistemas operacionais: **Windows, Linux e Mac**.
+
+### Detalhes Importantes
+
+- **Azure Databox:** O laboratório menciona que esta ferramenta **não está disponível** para assinaturas de treinamento.
+- **Transferência de grandes volumes de dados:**
+  - **Databox**
+  - **Datadisk**
+  - **Azure Import/Export**
+  
+- O **Azure Storage Explorer** oferece uma solução mais **visual e amigável** comparado ao AzCopy, sendo ideal para usuários que preferem uma interface gráfica.
+
+### Conclusão
+
+O laboratório oferece uma visão geral prática e detalhada sobre as diferentes ferramentas e estratégias disponíveis para gerenciar e transferir dados dentro da plataforma Azure. Este conteúdo é valioso para quem busca se aprofundar na área de **cloud computing** e se preparar para o mercado de trabalho.
 
 ### *2.4 - Desafio de Projeto: Computação em Nuvem*
