@@ -62,7 +62,7 @@ O laboratório reforça a importância de explorar as opções e configurações
 
 Este laboratório explora os serviços de computação e rede do Microsoft Azure, com foco em Máquinas Virtuais, Áreas de Trabalho Virtual e Aplicações de Funções.
 
-#### Máquinas Virtuais
+**Máquinas Virtuais**
 
 O laboratório demonstra como criar uma máquina virtual (VM) no Azure, destacando as principais etapas de configuração:
 
@@ -76,7 +76,7 @@ O laboratório demonstra como criar uma máquina virtual (VM) no Azure, destacan
 - Importância de habilitar a opção **“Excluir com VM”** para evitar discos órfãos que podem gerar custos desnecessários.
 - Configuração de **Conjuntos de Dimensionamento (Scale Sets)** para escalonamento horizontal, com base em métricas como uso médio da CPU, limite mínimo, limite máximo e tempo de consulta.
 
-#### Área de Trabalho Virtual
+**Área de Trabalho Virtual**
 
 - Apresenta a **Área de Trabalho Virtual do Azure** como uma solução para oferecer um ambiente de trabalho remoto seguro e personalizado.
 - Explicação sobre dois tipos de host:
@@ -84,7 +84,7 @@ O laboratório demonstra como criar uma máquina virtual (VM) no Azure, destacan
   - **Pool de hosts:** Compartilhado entre múltiplos usuários.
 - Aborda as opções de **balanceamento de carga** e **limite máximo de sessões** no contexto de pools de hosts.
 
-#### Aplicações de Funções
+**Aplicações de Funções**
 
 O laboratório explora como criar um **aplicativo de função** no Azure, abordando:
 
@@ -96,7 +96,7 @@ O laboratório explora como criar um **aplicativo de função** no Azure, aborda
   - .NET
 - Introdução ao conceito **"sem servidor" (serverless)**, onde o aplicativo de função é executado sem a necessidade de gerenciar servidores.
 
-#### Dicas Importantes
+**Dicas Importantes**
 
 - Realizar atividades práticas no Azure, como criar VMs e aplicativos de função, para solidificar o entendimento dos conceitos e se preparar para a certificação AZ-900.
 - Recomenda-se consultar a [documentação oficial do Azure](https://docs.microsoft.com/azure) e utilizar ferramentas de monitoramento e alertas para otimizar os serviços e garantir a segurança da infraestrutura.
@@ -106,9 +106,7 @@ O laboratório explora como criar um **aplicativo de função** no Azure, aborda
 
 Este laboratório aborda conceitos e práticas de armazenamento na plataforma Azure, com foco em contas de armazenamento (Storage Accounts), migrações e ferramentas de gerenciamento.
 
-### Principais Pontos
-
-#### Contas de Armazenamento
+**Contas de Armazenamento**
 
 O laboratório demonstra a criação de uma conta de armazenamento no Azure, explorando suas funcionalidades principais, como:
 
@@ -123,7 +121,7 @@ O laboratório demonstra a criação de uma conta de armazenamento no Azure, exp
   - Premium
 - **Redundância e opções de acesso.**
 
-#### Migrações para o Azure
+**Migrações para o Azure**
 
 O laboratório apresenta o **serviço de migração do Azure**, que oferece ferramentas para:
 
@@ -136,7 +134,7 @@ O laboratório apresenta o **serviço de migração do Azure**, que oferece ferr
   - Estratégias de migração
   - Análise financeira
 
-#### Ferramentas de Gerenciamento
+**Ferramentas de Gerenciamento**
 
 Duas ferramentas importantes foram destacadas no laboratório:
 
@@ -149,7 +147,7 @@ Duas ferramentas importantes foram destacadas no laboratório:
   - Ideal para **transferências unilaterais**.
   - Funciona em diferentes sistemas operacionais: **Windows, Linux e Mac**.
 
-### Detalhes Importantes
+**Detalhes Importantes**
 
 - **Azure Databox:** O laboratório menciona que esta ferramenta **não está disponível** para assinaturas de treinamento.
 - **Transferência de grandes volumes de dados:**
@@ -159,7 +157,7 @@ Duas ferramentas importantes foram destacadas no laboratório:
   
 - O **Azure Storage Explorer** oferece uma solução mais **visual e amigável** comparado ao AzCopy, sendo ideal para usuários que preferem uma interface gráfica.
 
-### Conclusão
+**Conclusão**
 
 O laboratório oferece uma visão geral prática e detalhada sobre as diferentes ferramentas e estratégias disponíveis para gerenciar e transferir dados dentro da plataforma Azure. Este conteúdo é valioso para quem busca se aprofundar na área de **cloud computing** e se preparar para o mercado de trabalho.
 
@@ -167,57 +165,100 @@ O laboratório oferece uma visão geral prática e detalhada sobre as diferentes
 
 Este laboratório aborda conceitos chave de identidade, acesso e segurança na plataforma Azure, com foco no **Microsoft Entra ID** (antigo Azure Active Directory) e no **Defender for Cloud**.
 
-### Microsoft Entra ID
+**Microsoft Entra ID**
 
-#### 1. Gerenciamento de Usuários
+1. Gerenciamento de Usuários
 O **Microsoft Entra ID** centraliza o gerenciamento de usuários, permitindo a:
 
 - **Criação e sincronização** com ambientes locais (on-premise)
 - Controle de acesso, logs de atividades e redefinição de senhas
 
-#### 2. Domínios Personalizados
+2. Domínios Personalizados
 - Permite a personalização do **domínio de login** dos usuários com o nome da organização.
 
-#### 3. Licenciamento
+3. Licenciamento
 - Recomenda-se utilizar os planos pagos **Premium P1** ou **P2** para acessar **recursos avançados** de gerenciamento e segurança.
 
-#### 4. RBAC (Controle de Acesso Baseado em Funções)
+4. RBAC (Controle de Acesso Baseado em Funções)
 - Oferece ferramentas para **gerenciar permissões** relacionadas a ações dos usuários, mas não para o acesso a recursos diretamente.
 
-#### 5. Integração com Ambientes Locais
+5. Integração com Ambientes Locais
 - O **Entra Connect** permite a sincronização de usuários e grupos entre o ambiente on-premise e o Azure, garantindo uma **gestão unificada**.
 
-### Defender for Cloud
+**Defender for Cloud**
 
-#### 1. Visão Unificada de Segurança
+1. Visão Unificada de Segurança
 - O **Defender for Cloud** oferece um painel centralizado para **monitorar a postura de segurança** em diferentes plataformas, incluindo **Azure, AWS** e **GCP**.
 
-#### 2. Recomendações e Pontuação de Segurança
+2. Recomendações e Pontuação de Segurança
 - Fornece **recomendações** para melhorar a segurança e acompanha a **pontuação de segurança** da sua infraestrutura.
 
-#### 3. DevOps Security
+3. DevOps Security
 - Integra-se com ferramentas de **DevOps** como **GitHub** e **GitLab** para monitorar a segurança do código durante o processo de desenvolvimento.
 
-#### 4. Monitoramento de Recursos
+4. Monitoramento de Recursos
 - Oferece ferramentas para monitorar a segurança de recursos como:
   - **Máquinas virtuais**
   - **Serviços de aplicativos**
   - **Bancos de dados**
   - **Containers**
 
-#### 5. Gerenciamento de Ataques
+5. Gerenciamento de Ataques
 - Funcionalidades para identificar e mitigar ataques, incluindo:
   - **Análise de vulnerabilidades**
   - **Detecção de intrusão**
   - **Resposta a incidentes**
 
-### Benefícios do Defender for Cloud
+**Benefícios do Defender for Cloud**
 
 - **Simplificação do Gerenciamento de Segurança:** Visão unificada para monitorar a segurança em ambientes híbridos e multi-cloud.
 - **Melhora da Postura de Segurança:** Recomendações e ferramentas para identificar e corrigir vulnerabilidades.
 - **Gerenciamento Proativo de Riscos:** Detecção e resposta a incidentes de segurança de forma mais eficiente.
 
-### Conclusão
+**Conclusão**
 
 Este laboratório destaca a importância de soluções robustas de **identidade e segurança** no Azure, como o **Microsoft Entra ID** e o **Defender for Cloud**, para garantir a proteção de recursos e dados, e o gerenciamento eficiente do acesso a serviços e aplicações.
+
+## **Módulo 3 - Arquitetura e Serviços Azure**
+
+### *3.1 - Desafio de Projeto: Otimizando Custos no Azure*
+
+A aula aborda a importância de **gerenciar custos** ao trabalhar com o Azure, especialmente durante a migração de ambientes on-premise para a nuvem. A principal ferramenta para isso é a **Calculadora de Custo Total de Propriedade (TCO)**, que permite **comparar os custos** do ambiente local com os custos estimados no Azure.
+
+**1. Calculadora de Custo Total de Propriedade (TCO)**
+- A calculadora TCO ajuda a **simular cenários de migração** e a comparar os custos do ambiente on-premise com o Azure.
+- O usuário pode ajustar diferentes variáveis, como **modelos de licenças**, **reservas** e **tipos de instâncias** de máquinas virtuais.
+
+**2. Calculadora de Preços do Azure**
+- Esta calculadora permite obter **estimativas de custo** para diversos serviços, incluindo:
+  - **Máquinas virtuais**
+  - **Armazenamento**
+  - **Bancos de dados**
+  - **Serviços de rede**
+- A aula ensina como **navegar pela ferramenta** e obter uma **visão geral dos custos mensais**.
+
+**Gerenciamento de Custos e Faturamento (Cost Management + Billing)**
+- A ferramenta **Cost Management + Billing** oferece um painel para **monitorar os gastos** no Azure.
+- Funcionalidades principais:
+  - **Identificação de alertas de custo**
+  - **Recomendações do Advisor** para otimizar os custos
+
+**Uso de Tags para Organizar Recursos**
+- **Tags** (ou **Marcas**) permitem **categorizar** os recursos no Azure para facilitar a **organização e o gerenciamento** dos custos.
+- A aula demonstra como:
+  - Aplicar **tags** aos recursos
+  - Usar **políticas** (policies) para definir **regras de aplicação de tags**
+
+**Conclusão**
+A aula fornece uma introdução completa ao **gerenciamento de custos** no Azure, destacando as ferramentas e recursos disponíveis para **controlar os gastos** e garantir uma **utilização eficiente e rentável** da nuvem.
+
+### *3.2 - Desafio de Projeto: Computação e Rede*
+
+
+
+### *3.3 - Desafio de Projeto: Computação e Rede*
+
+### *3.4 - Desafio de Projeto: Computação e Rede*
+
+
 
