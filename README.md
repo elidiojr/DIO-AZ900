@@ -252,9 +252,36 @@ A aula aborda a importância de **gerenciar custos** ao trabalhar com o Azure, e
 **Conclusão**
 A aula fornece uma introdução completa ao **gerenciamento de custos** no Azure, destacando as ferramentas e recursos disponíveis para **controlar os gastos** e garantir uma **utilização eficiente e rentável** da nuvem.
 
-### *3.2 - Desafio de Projeto: Computação e Rede*
+### *3.2 - Desafio de Projeto: Gerenciando Políticas em Acessos Azure*
 
+A aula aborda conceitos chave de **governança** e **conformidade** dentro do Azure, focando em ferramentas e recursos importantes para garantir a **segurança** e o **cumprimento de regulamentações**.
 
+**1. Portal de Confiança de Serviços**
+- O portal [Service Trust Portal](https://servicetrust.microsoft.com) fornece informações sobre as **certificações**, **regulamentações** e **padrões de segurança** seguidos pela Microsoft.
+- Essencial para empresas que precisam **demonstrar conformidade** durante auditorias.
+
+**2. Bloqueios (Locks)**
+- **Locks** impedem a **exclusão** ou **modificação** de recursos acidentalmente.
+- Podem ser aplicados em nível de **Resource Group** ou diretamente no recurso.
+  
+**3. Microsoft Purview**
+- Ferramenta abrangente para **gerenciar**, **proteger** e **monitorar dados** em ambientes como Microsoft 365 e Azure.
+- Auxilia na conformidade com regulamentações como a **LGPD**.
+
+**4. Políticas (Policies)**
+- As **policies** são definidas em nível de **Management Group**, **assinatura** ou **Resource Group**.
+- Estabelecem **regras** e **padrões** para gerenciar recursos, garantindo **consistência** e **segurança** dentro do ambiente Azure.
+
+**5. Importância da Monitorização**
+- É crucial **monitorar** o cumprimento das políticas e realizar **ajustes** para garantir que o ambiente está em **conformidade** com as regras definidas.
+
+*Principais Aprendizados*
+
+- A Microsoft oferece ferramentas e recursos para garantir a **segurança** e **conformidade** dentro do Azure.
+- O **Portal de Confiança de Serviços** é fundamental para **demonstrar conformidade** com regulamentações e padrões de segurança.
+- **Bloqueios** e **políticas** são mecanismos poderosos para **controlar o acesso** e **gerenciar recursos**.
+- O **Microsoft Purview** auxilia na **gestão**, **proteção** e **monitoramento de dados**.
+- A **monitorização constante** é essencial para garantir que as políticas estão sendo aplicadas corretamente e o ambiente está em **conformidade**.
 
 ### *3.3 - Desafio de Projeto: Computação e Rede*
 
