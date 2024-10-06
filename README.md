@@ -312,7 +312,39 @@ A aula explora a **criação** e **gerenciamento de recursos** no Azure, com ên
 
 Essa aula oferece uma visão abrangente das diferentes maneiras de **criar** e **gerenciar recursos no Azure**, destacando a importância da **automação** e do **gerenciamento multicloud**. Ele serve como um guia essencial tanto para iniciantes quanto para profissionais que buscam maximizar a eficiência no uso da plataforma.
 
-### ⚡*3.4 - Desafio de Projeto: Computação e Rede*
+### ⚡*3.4 - Monitoramento Inteligente com o Azure*
+
+O laboratório aborda a **importância do monitoramento** na infraestrutura do Azure, destacando ferramentas como o **Azure Monitor**, **Azure Service Health** e **Azure Advisor**.
+
+**Azure Monitor**
+
+O **Azure Monitor** fornece uma visão abrangente do ambiente, permitindo monitorar a **saúde** e o **desempenho** de recursos como máquinas virtuais, aplicações, armazenamento e rede. Ele oferece vários recursos, como:
+
+- **Monitoramento de saúde e performance**: Acompanha o estado e a performance dos recursos.
+- **Insights**: Fornece análise de dados para identificar **padrões** e **tendências**.
+- **Criação de alertas**: Permite a criação de **notificações personalizadas** para eventos específicos.
+
+**Azure Service Health**
+
+O **Azure Service Health** é uma ferramenta essencial para verificar a **saúde dos serviços do Azure**, identificando:
+
+- **Problemas** em serviços.
+- **Manutenções planejadas**.
+- **Recomendações de saúde e segurança**.
+
+É crucial para verificar a **disponibilidade de serviços** antes de reportar problemas, evitando falsas reclamações e melhorando o suporte técnico.
+
+**Azure Advisor**
+
+O **Azure Advisor** oferece recomendações personalizadas para otimizar o uso de recursos. Suas funcionalidades incluem:
+
+- **Melhoria de segurança**, confiabilidade, desempenho e custo.
+- **Análise do ambiente** para identificar áreas de aprimoramento.
+- **Sugestão de ações** para melhorar a performance e a eficiência da infraestrutura.
+
+**Conclusão**
+
+O monitoramento é fundamental para garantir um ambiente **saudável**, **seguro** e **eficiente**. Através das ferramentas de monitoramento do Azure, como o Azure Monitor, Azure Service Health e Azure Advisor, é possível **identificar problemas** rapidamente, **otimizar recursos** e melhorar a experiência dos usuários finais.
 
 
 
